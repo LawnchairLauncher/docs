@@ -1,3 +1,8 @@
+---
+description: Change icon packs, themed icons, colors, and fonts.
+icon: palette
+---
+
 # Theming and icons
 
 Lawnchair lets you customize icons, colors, and fonts.

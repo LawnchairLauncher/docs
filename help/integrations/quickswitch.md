@@ -1,3 +1,8 @@
+---
+description: Use QuickSwitch on rooted devices for better Recents integration.
+icon: cards-blank
+---
+
 # QuickSwitch
 
 [QuickSwitch](https://github.com/skittles9823/QuickSwitch) is a Magisk module that allows third-party launchers, like Lawnchair, to function as the system's Quickstep (Recents) provider.

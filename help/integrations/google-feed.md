@@ -1,3 +1,8 @@
+---
+description: Show Google Discover on the left of your home screen.
+icon: newspaper
+---
+
 # Google Feed
 
 The **Google Feed**, also called **Google Discover**, shows personalized news, articles, and updates from Google.

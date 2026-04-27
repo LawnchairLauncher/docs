@@ -1,3 +1,8 @@
+---
+description: Replace At a Glance or add a custom feed with Smartspacer.
+icon: bars-sort
+---
+
 # Smartspacer
 
 [Smartspacer](https://github.com/KieronQuinn/Smartspacer) is an app that replaces Google's At a Glance feature and adds extra customization and plugin support.

@@ -1,3 +1,8 @@
+---
+description: Fix Play Protect warnings, sideload errors, and failed installs.
+icon: triangle-exclamation
+---
+
 # Installation issues
 
 Android can block Lawnchair installation for a few common reasons.

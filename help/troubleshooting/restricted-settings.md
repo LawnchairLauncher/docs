@@ -1,3 +1,8 @@
+---
+description: Allow restricted settings for sideloaded Lawnchair builds on Android 13+.
+icon: lock
+---
+
 # Restricted settings
 
 On Android 13 and later, some sensitive permissions are blocked by default for apps installed outside Google Play.

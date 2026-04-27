@@ -1,3 +1,8 @@
+---
+description: Capture crash logs and try the fastest recovery steps.
+icon: bug
+---
+
 # Crashes
 
 If Lawnchair crashes, you can usually capture a report and share it with the team.

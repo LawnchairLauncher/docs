@@ -1,3 +1,8 @@
+---
+description: Set up dock and app drawer search, providers, and result types.
+icon: magnifying-glass
+---
+
 # Search
 
 Lawnchair search helps you find apps, contacts, settings, files, and web results.

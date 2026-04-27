@@ -1,3 +1,8 @@
+---
+description: Fix common widget setup, refresh, and disappearance problems.
+icon: table-cells
+---
+
 # Widget issues
 
 Widget behavior on Android can be inconsistent across apps, launchers, and device manufacturers.

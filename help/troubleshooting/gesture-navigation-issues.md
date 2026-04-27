@@ -1,3 +1,8 @@
+---
+description: Understand launcher gesture limits and improve navigation behavior.
+icon: hand-pointer
+---
+
 # Gesture navigation issues
 
 Smooth gesture navigation is a big part of a good launcher experience.

@@ -1,3 +1,8 @@
+---
+description: Get a quick overview of Lawnchair and what it offers.
+icon: circle-info
+---
+
 # What is Lawnchair?
 
 Lawnchair is a free, open-source home app for Android. It is built on Launcher3, the same code that powers the default home screen on stock Android devices.

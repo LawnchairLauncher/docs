@@ -1,3 +1,8 @@
+---
+description: Stop background restrictions from breaking widgets, gestures, and reloads.
+icon: battery-half
+---
+
 # Battery optimization
 
 Android includes power-saving features that stop apps from running in the background.

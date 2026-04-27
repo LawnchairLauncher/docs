@@ -1,3 +1,8 @@
+---
+description: Back up your setup, restore it later, or reset Lawnchair.
+icon: arrows-rotate
+---
+
 # Backup, restore, and reset
 
 Lawnchair can back up your settings, home screen layout, and app drawer setup.

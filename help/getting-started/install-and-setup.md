@@ -1,3 +1,8 @@
+---
+description: Install Lawnchair and set it as your default home app.
+icon: download
+---
+
 # Install and setup
 
 Lawnchair only takes a few minutes to set up.

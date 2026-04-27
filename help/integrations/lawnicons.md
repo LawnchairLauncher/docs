@@ -1,3 +1,8 @@
+---
+description: Use Lawnicons as your icon pack and themed icon source.
+icon: icons
+---
+
 # Lawnicons
 
 [Lawnicons](https://lawnchair.app/lawnicons) is a free, open-source icon pack that matches the look of Google's themed icons.

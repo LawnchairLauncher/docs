@@ -1,3 +1,8 @@
+---
+description: Compare release channels and choose the right Lawnchair build.
+icon: code-branch
+---
+
 # Choosing a version
 
 Lawnchair is available through several release channels.
