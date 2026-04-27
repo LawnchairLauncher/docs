@@ -1,26 +1,29 @@
 # Lawnicons
 
-[Lawnicons](https://lawnchair.app/lawnicons) is a free, open-source icon pack designed to provide outlined icons that match the visual style of Google's themed icons.
+[Lawnicons](https://lawnchair.app/lawnicons) is a free, open-source icon pack that matches the look of Google's themed icons.
 
-Lawnicons can be used in two distinct ways within Lawnchair: as a standard icon pack and as a source for Lawnchair's themed icon feature. This guide will explain both.
+You can use it in two ways inside Lawnchair:
+
+* As a standard icon pack.
+* As a themed icon source.
 
 ### Prerequisites
 
-* The Lawnicons app installed on your device.
+* Install the Lawnicons app on your device.
 
-### How to use Lawnicons in Lawnchair
+### Use Lawnicons in Lawnchair
 
-Lawnicons can be used in two different ways: as an icon pack, and as a themed icon source.
+Lawnicons works as both an icon pack and a themed icon source.
 
-#### As an icon pack
+#### Use it as an icon pack
 
-1. Navigate to **Home settings** > **General.**
-2. Find and tap **Icon style.**
+1. Go to **Home settings** → **General**.
+2. Tap **Icon style**.
 3. On the screen that appears, choose **Lawnicons** from the list.
 
-#### As a themed icon source
+#### Use it as a themed icon source
 
-When used as a themed icon source, Lawnicons provides the monochrome icons that Lawnchair then colors dynamically based on your device's wallpaper and theme colors (Material You).
+When you use Lawnicons as a themed icon source, Lawnchair recolors its monochrome icons to match your current theme.
 
 {% include "../.gitbook/includes/turn-on-themed-icons.md" %}
 
@@ -30,12 +33,14 @@ When used as a themed icon source, Lawnicons provides the monochrome icons that 
 
 <summary>What's the difference between an icon pack and a themed icon source?</summary>
 
-This distinction can sometimes be confusing, as Lawnicons visually aims to match Google's themed icon style in both cases.
+The difference is easy to miss because both options look similar.
 
 * **As an icon pack**
-  * Applies Lawnicons' default appearance, which matches your wallpaper colors or a black and white color scheme on older devices.
+  * Applies Lawnicons' default look.
+  * On supported devices, that look can reflect your wallpaper colors.
 * **As a themed icon source**
-  * Uses Lawnicons' monochrome icons, which are recolored to match Lawnchair's current theme. This can be different from your wallpaper or system settings.
+  * Uses Lawnicons' monochrome icons.
+  * Lawnchair then recolors them to match its current theme.
 
 </details>
 
@@ -43,9 +48,9 @@ This distinction can sometimes be confusing, as Lawnicons visually aims to match
 
 <summary>Lawnicons icons don't reload or aren't colored by my wallpaper</summary>
 
-* Check if Themed icons are on (see above steps)
-* Restart Lawnchair
-* Try changing your wallpaper
+* Check that **Themed icons** is turned on.
+* Restart Lawnchair.
+* Try changing your wallpaper.
 
 </details>
 
@@ -53,9 +58,9 @@ This distinction can sometimes be confusing, as Lawnicons visually aims to match
 
 <summary>An icon for a specific app is not themed</summary>
 
-This means Lawnicons does not currently have a custom icon for that particular application.
+Lawnicons does not currently include a themed icon for that app.
 
-You can request new icons or contribute to Lawnicons directly (see "Contributing to Lawnicons" below).
+You can request a new icon or contribute one directly.
 
 </details>
 
@@ -63,6 +68,4 @@ You can request new icons or contribute to Lawnicons directly (see "Contributing
 
 Lawnicons is a separate project with its own community and contribution guidelines.
 
-If you wish to request new icons or contribute icon designs, please refer to Lawnicons' dedicated resources:
-
-{% embed url="https://github.com/lawnchairlauncher/lawnicons" %}
+If you want to request icons or contribute designs, use the [Lawnicons GitHub repository](https://github.com/lawnchairlauncher/lawnicons).

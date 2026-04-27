@@ -1,30 +1,30 @@
 # Gesture navigation issues
 
-Smooth gesture navigation is important for a great home screen experience.
+Smooth gesture navigation is a big part of a good launcher experience.
 
-However, its behavior with third-party launchers like Lawnchair can vary significantly based on your phone's manufacturer (OEM), their specific version of Android, and other software customizations.
+On Android, results with third-party launchers can vary a lot by device, Android version, and OEM software.
 
 {% hint style="info" %}
-Gesture navigation in this page refers to **system navigation via gestures**, not Lawnchair's home screen gestures found at Home settings > Gestures.
+Gesture navigation on this page means **system navigation gestures**, not Lawnchair gestures under **Home settings** → **Gestures**.
 {% endhint %}
 
 ### How does gesture navigation work?
 
-Android is designed with system launcher having special privileges for handling gesture animations (like swiping home or accessing the Recents screen).
+Android gives the system launcher special privileges for handling home and Recents animations.
 
-When you switch to a third-party launcher, these integrations might not be as seamless.
+When you switch to a third-party launcher, those integrations may be less reliable.
 
 ### Common issues you might encounter
 
-* Some OEMs like Xiaomi block gesture navigation on custom launchers entirely
-* Not being able to tap icons or widgets for a short time after going home
-* Home screen content flashing or disappearing entirely when tapping icons quickly after swiping home
-* Home animations not being as fluid as expected or completely non-existent
-* Opening animations not working when quickly opening an app after swiping home
+* Some OEMs, such as Xiaomi, block gesture navigation on custom launchers entirely
+* Icons or widgets not responding for a short time after going home
+* Home screen content flashing or disappearing when you tap icons too quickly after swiping home
+* Home animations feeling choppy or not running at all
+* App opening animations failing when you launch an app right after swiping home
 * A short delay before the home screen content appears when swiping home
-  * Oppo (therefore OnePlus and Realme) introduced this issue with their Android 14 update but it may also be present on other devices and versions.
+  * Oppo, OnePlus, and Realme introduced this issue on Android 14, but it can also appear elsewhere.
 
-This list might not include every possible issue, and you may experience some or none of the issues here.
+You may see some of these issues, all of them, or none of them.
 
 ### Options for improving gesture navigation
 
@@ -32,24 +32,24 @@ While many issues are caused by system-level limitations beyond Lawnchair's dire
 
 #### For non-rooted users
 
-Lawnchair uses Google's official `GestureNavContract` API (on Android 11+) to improve animation smoothness for non-rooted devices.
+On Android 11 and later, Lawnchair uses Google's `GestureNavContract` API to improve animations on non-rooted devices.
 
-The effectiveness of this API is **entirely dependent on how well your device manufacturer has implemented it**.
+How well this works depends entirely on your device manufacturer.
 
-* Devices with software close to stock Android (like Google Pixel, Nothing Phone, or phones running AOSP-based custom ROMs) generally have better results.
-* Devices with heavily customized software (e.g., from Samsung, Xiaomi, or OnePlus/Oppo) may still experience significant issues.
+* Devices close to stock Android, such as Pixel, Nothing, and AOSP-based ROMs, usually work better.
+* Devices with heavily customized software, such as Samsung, Xiaomi, and OnePlus/Oppo, may still have major issues.
 
 <details>
 
 <summary>Icons are getting stuck on the screen after closing an app</summary>
 
-A common bug, where an app's icon gets stuck on the screen after closing an app, was initially fixed by Google in Android 13.
+A common bug causes an app icon to get stuck on screen after you close an app.
 
-However, this issue has reappeared on some OEM devices (e.g., Samsung on Android 15+ One UI 6) that have modified the API.
+Google fixed this in Android 13, but some OEMs reintroduced it by modifying the API.
 
-To manage this, follow these steps:
+If this happens:
 
-1. Navigate to **Home settings**, then tap More<i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+1. Go to **Home settings**, then tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 2. Tap <i class="fa-flask">:flask:</i> **Experimental features**.
 3. Turn off **Use GestureNavContract API**.
 
@@ -61,5 +61,4 @@ If your device is rooted, using the **QuickSwitch Magisk module** is highly reco
 
 QuickSwitch allows Lawnchair to integrate as the system's Recents provider. This provides a more consistent animation experience.
 
-Refer to our [QuickSwitch integration page](../integrations/quickswitch.md) for more details.
-
+See [QuickSwitch](../integrations/quickswitch.md) for setup details.

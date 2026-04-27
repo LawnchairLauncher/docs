@@ -1,10 +1,12 @@
 # Theming and icons
 
-Lawnchair offers options to customize the look and feel of your home screen, including icons, colors, and fonts. This guide explains how to customize these visual elements.
+Lawnchair lets you customize icons, colors, and fonts.
 
-### Customizing icons
+Use these settings to match your home screen to your style.
 
-Lawnchair handles icon customization through two primary systems that can interact with each other.
+### Customize icons
+
+Lawnchair supports two icon systems that can work together.
 
 #### Icon packs
 
@@ -14,9 +16,9 @@ Icon packs provide a set of custom, full-color designs for your app icons.
 
 <summary>How to apply icon packs</summary>
 
-1. Navigate to **Home settings** > **General**.
+1. Go to **Home settings** → **General**.
 2. Tap **Icon style**.
-3. Select your desired icon pack from the list.
+3. Select the icon pack you want.
 
 </details>
 
@@ -24,9 +26,9 @@ Icon packs provide a set of custom, full-color designs for your app icons.
 
 <summary>What does <strong>Tint with accent color</strong> do?</summary>
 
-When turned on, it applies your current accent color (determined by your theme or wallpaper) to all icons, regardless of whether the icon pack is designed for it.
+When turned on, Lawnchair applies your current accent color to all icons.
 
-This can create a uniform look but may override an icon pack's intended colors in a way that appears invasive or less refined for some apps.
+This creates a more uniform look, but it can override an icon pack's intended colors.
 
 </details>
 
@@ -34,7 +36,7 @@ This can create a uniform look but may override an icon pack's intended colors i
 
 <summary>Where to find icon packs</summary>
 
-You can find supported icon packs through different online sources:
+You can find supported icon packs here:
 
 * [Play Store](https://play.google.com/store/search?q=icon+pack\&c=apps)
 * [F-Droid](https://f-droid.org/en/categories/icon-pack/)
@@ -43,48 +45,48 @@ You can find supported icon packs through different online sources:
 
 #### Themed icons
 
-Themed icons are a modern Android feature that provides single-color, monochrome versions of icons. Lawnchair then dynamically colors these icons to match your device's wallpaper and theme.
+Themed icons are a modern Android feature that provides single-color, monochrome versions of icons. Lawnchair then dynamically colors these icons to match your device's wallpaper and theme. Themed icons use monochrome icon shapes that Lawnchair recolors to match your wallpaper and theme.
 
 {% include "../.gitbook/includes/turn-on-themed-icons.md" %}
 
 {% hint style="info" %}
 For the best themed icon experience, ensure you have a compatible icon source.
 
-Lawnicons is specifically designed to provide high-quality themed icons for Lawnchair and can be set as both your "Icon pack" and your "themed icon source." Refer to the [Lawnicons integration page](../integrations/lawnicons.md) for full details.
+Lawnicons is built for Lawnchair and works as both an icon pack and a themed icon source. See [Lawnicons](../integrations/lawnicons.md) for details.
 {% endhint %}
 
 #### Per-icon customization
 
-You can manually change the icon for a specific app on your home screen or in the app drawer.
+You can also change the icon for a specific app on the home screen or in the app drawer.
 
 {% hint style="warning" %}
-**Important:** This feature is only supported for app icons, and does not support shortcuts or apps in your work profile.
+**Important:** This feature only works for app icons. It does not support shortcuts or work profile apps.
 {% endhint %}
 
-To customize an individual icon:
+To change one icon:
 
-1. Long-press the app icon you wish to change.
+1. Long-press the app icon you want to change.
 2. Tap **Customize** (or the pencil icon).
 3. Tap the existing icon to open the icon editor.
-   * From here, you can choose an icon from your installed icon packs.
+   * Choose an icon from your installed icon packs.
 
-### Customizing colors and theme
+### Customize colors and theme
 
-Lawnchair allows you to adjust its color scheme to match your preferences or your device's theme.
+Lawnchair also lets you adjust its color scheme.
 
 <details>
 
 <summary>Adjusting accent color source</summary>
 
-This settings determines how Lawnchair picks its primary colors for various UI elements.
+This setting controls how Lawnchair picks its main colors.
 
-1. Navigate to **Home settings** > **General**.
+1. Go to **Home settings** → **General**.
 2. Tap **Accent color**.
-3. Choose between the following:
+3. Choose one of these options:
    1. **System**: Uses the colors provided by your device.
    2. **Wallpaper**: Uses the colors sampled from your wallpaper.
       * If you are using a live wallpaper, Lawnchair may not sample colors reliably.
-   3. **Custom**: You can choose between the pre-sets, or set a custom color.
+   3. **Custom**: Lets you choose a preset or set a custom color.
 
 </details>
 
@@ -92,12 +94,12 @@ This settings determines how Lawnchair picks its primary colors for various UI e
 
 <summary>Adjusting color style</summary>
 
-If you are using a non-system accent color, you can also change how Lawnchair applies the colors.
+If you use a non-system accent color, you can also change how Lawnchair applies it.
 
-1. Navigate to **Home settings** > **General**.
-2. Check if your current **Accent color** is not **System**.
+1. Go to **Home settings** → **General**.
+2. Make sure **Accent color** is not set to **System**.
 3. Tap **Color style**.
-4. Choose an item from the list to see how it will look.
+4. Choose a style from the list.
 
 </details>
 
@@ -107,9 +109,9 @@ If you are using a non-system accent color, you can also change how Lawnchair ap
 
 <summary>Custom font not applying or reverts</summary>
 
-Sometimes, after changing fonts, a restart of Lawnchair is needed for the changes to take full effect.
+After changing fonts, you may need to restart Lawnchair.
 
-* Navigate to **Home settings** > **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+* Go to **Home settings** → **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 * Tap **Restart Lawnchair**.
 
 </details>
@@ -118,6 +120,6 @@ Sometimes, after changing fonts, a restart of Lawnchair is needed for the change
 
 <summary>Icons appear strangely tinted or have unexpected colors</summary>
 
-Try to turn off **Tint with accent color** via the steps in [#what-does-tint-with-accent-color-do](theming-and-icons.md#what-does-tint-with-accent-color-do "mention").
+Turn off **Tint with accent color** by following the steps in [What does **Tint with accent color** do?](theming-and-icons.md#what-does-tint-with-accent-color-do).
 
 </details>

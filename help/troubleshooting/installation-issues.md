@@ -1,26 +1,30 @@
 # Installation issues
 
-There are several reasons why Android might block installation of Lawnchair, especially when sideloading an APK file when using the GitHub or Nighlty versions.
+Android can block Lawnchair installation for a few common reasons.
+
+This usually happens when you sideload an APK from the GitHub or Nightly release channels.
 
 ### Play Protect blocking installation
 
-Google Play Protect is a security feature on Android devices designed to scan apps for potential harm. Sometimes, when you install an app from outside the Play Store (like Lawnchair's GitHub or Nightly versions), Play Protect might display a warning or block the installation, even for trusted apps.
+Google Play Protect scans apps for potential harm.
 
-To work around this issue, follow these steps:
+When you install Lawnchair from outside the Play Store, Play Protect may warn you or block the install.
+
+To continue:
 
 1. When prompted by Play Protect, tap **Install anyway**.
 2. If installation is blocked without this option:
    1. Open the Play Store app.
    2. Tap your profile icon.
    3. Tap **Play Protect**, then tap **Settings** <i class="fa-gear">:gear:</i>.
-   4. Tap **Scan apps with Play Protect.**
+   4. Tap **Scan apps with Play Protect**.
    5. On the message that appears, tap **Pause** or **Turn off**.
    6. Install Lawnchair.
-   7. Once installation is complete, immediately turn on Play Protect to keep your device secure.
+   7. Turn Play Protect back on as soon as installation finishes.
 
 ### "App not installed" error
 
-This is a generic Android error message that can have several causes when sideloading from an APK file.
+This is a generic Android error with several possible causes when you sideload an APK.
 
 <details>
 
@@ -28,7 +32,7 @@ This is a generic Android error message that can have several causes when sidelo
 
 You might have downloaded an APK file that has been modified or originates from an unofficial source. These often have different digital signatures that prevent installation.
 
-**Solution:** Always download from an official source, as outlined in [choosing-a-version.md](../getting-started/choosing-a-version.md "mention").
+**Solution:** Download Lawnchair from an official source listed in [Choosing a version](../getting-started/choosing-a-version.md).
 
 </details>
 
@@ -38,7 +42,7 @@ You might have downloaded an APK file that has been modified or originates from 
 
 The APK file you downloaded might be incomplete or damaged.
 
-**Solution:** Delete the APK file you have, then download it again.
+**Solution:** Delete the APK, then download it again.
 
 </details>
 
@@ -46,9 +50,8 @@ The APK file you downloaded might be incomplete or damaged.
 
 <summary>Check your Lawnchair version</summary>
 
-You might be trying to install an older version of Lawnchair on top of a newer version of Lawnchair, especially when using Nightly builds.
+You might be trying to install an older version over a newer one, especially with Nightly builds.
 
-**Solution:** You must first uninstall the newer version of Lawnchair from your device before installing the older one.
+**Solution:** Uninstall the newer version first, then install the older one.
 
 </details>
-

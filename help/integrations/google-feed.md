@@ -1,22 +1,22 @@
 # Google Feed
 
-The **Google Feed**, also referred to as **Google Discover**, is a content stream that displays personalized news, articles, and updates from Google.
+The **Google Feed**, also called **Google Discover**, shows personalized news, articles, and updates from Google.
 
 When turned on in Lawnchair, it appears as a dedicated page to the left of your home screen.
 
 ### Prerequisites
 
-To **set up** the Google Feed with Lawnchair, you need an additional app, which varies by your Lawnchair version:
+To use Google Feed, you may need an extra app depending on your Lawnchair version:
 
-* **Nightly version**: No additional download is usually required; the feed support is built-in.
-* **Other versions**: [Download and install Lawnfeed 4](https://lawnchair.app/downloads)
-  * If you're experiencing issues with Lawnfeed 4, try downloading [AIDL Bridge](https://github.com/amirzaidi/AIDLBridge/releases) as a fallback.
+* **Nightly**: Feed support is usually built in.
+* **Other versions**: Download and install [Lawnfeed 4](https://lawnchair.app/downloads).
+  * If Lawnfeed 4 does not work, try [AIDL Bridge](https://github.com/amirzaidi/AIDLBridge/releases) instead.
 
-### How to turn on the Google Feed
+### Show the Google Feed in Lawnchair
 
-1. Navigate to **Home settings > Home screen**, then turn on **Show feed**.
-2. The **Feed provider** option should show Google. This will use Lawnfeed v4 (if installed) or the built-in integration (for Nightly versions).
-   1. If you installed AIDL Bridge, change the feed provider to use **AIDL Bridge**.
+1. Go to **Home settings** → **Home screen**, then turn on **Show feed**.
+2. Make sure **Feed provider** is set to Google. This uses Lawnfeed 4, if installed, or the built-in integration on Nightly.
+   * If you installed AIDL Bridge, change the feed provider to use **AIDL Bridge**.
 3. Once selected, swipe left to show the feed.
 
 ### Common issues
@@ -25,7 +25,7 @@ To **set up** the Google Feed with Lawnchair, you need an additional app, which 
 
 <summary>Google Feed does not show up</summary>
 
-If the Google Feed does not show up or work correctly after following the steps above, try these troubleshooting steps:
+If Google Feed does not appear or does not work correctly, try these steps:
 
 1. Toggle the **Show feed** setting on and off.
 2. Force stop the Google app, then restart Lawnchair.
@@ -37,17 +37,12 @@ If the Google Feed does not show up or work correctly after following the steps 
 
 <summary>Google Feed still doesn't work</summary>
 
-On some devices, Lawnfeed may occasionally fail to connect to the Google Feed reliably.
+On some devices, Lawnfeed may not connect to Google Feed reliably.
 
 If you've tried the above steps and still experience problems, consider using AIDL Bridge as your feed provider instead:
 
-1. Ensure you have AIDL Bridge installed (see Prerequisites above).
-2. Navigate to **Home settings** > **Home screen**.
+1. Ensure AIDL Bridge is installed.
+2. Go to **Home settings** → **Home screen**.
 3. Tap **Feed provider**, then select **AIDL Bridge** from the list.
 
 </details>
-
-
-
-
-
