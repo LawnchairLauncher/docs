@@ -1,2 +1,0 @@
-# Home screen and grid
-
