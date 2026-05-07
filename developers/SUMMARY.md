@@ -1,11 +1,21 @@
 # Table of contents
 
-* [Home](README.md)
-* [Get started](get-started.md)
+## Introduction
+
+* [Before you start](README.md)
+* [Get started](introduction/get-started.md)
 
 ## Architecture
 
-* [Core concepts](architecture/core-concepts.md)
+* [Project overview](architecture/project-overview.md)
+* [AOSP design patterns](architecture/aosp-design-patterns.md)
+* [Lawnchair design patterns](architecture/lawnchair-design-patterns.md)
+* [Glossary](architecture/glossary.md)
+
+## Standards
+
+* [Development workflow](standards/development-workflow.md)
+* [Coding standards](standards/coding-standards.md)
 
 ## Lawnchair
 
