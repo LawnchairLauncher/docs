@@ -102,9 +102,3 @@ While we use frameworks like Dagger/Hilt in some areas, we frequently rely on si
 * Access major subsystems (e.g., `IconCache`, `LauncherAppState`) via their static `INSTANCE` or `getInstance()` methods.
 * Use `LocalContext.current` in Compose to fetch the required context for these singleton accessors.
 * Prioritize simplicity and fast initialization over strict constructor injection in the UI layer.
-
-### Code quality and testing
-
-Lawnchair prioritizes feature availability and user-facing stability.
-
-Currently, the project **does not utilize unit tests or automated UI tests**. Code quality is maintained through manual verification by contributors and core maintainers, alongside feedback from our community and Nightly build testers.

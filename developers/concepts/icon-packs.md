@@ -1,4 +1,13 @@
-# Icon pack support
+---
+noIndex: true
+noRobotsIndex: true
+---
+
+# Icon packs
+
+{% hint style="warning" %}
+This page is being actively rewritten, and as such, is not yet available for searching or indexing.
+{% endhint %}
 
 Lawnchair supports two distinct standards for icon theming: the ADW Icon Pack standard and the Google Themed Icon standard. This document provides the technical specification for both systems and describes Lawnchair's implementation details.
 

@@ -146,10 +146,18 @@ Some terminology shown in the UI is shown differently in Launcher3's code. This 
   * Theme abstraction values used to keep colors consistent across UI states.
 * **Hidden apps**
   * User-selected apps excluded from normal app drawer visibility.
-* **Feed integration**
-  * Optional left-page content integration such as a Discover-style feed.
 * **Overlay mode**
   * Visual transition style used when opening or closing apps.
+
+### Feed
+
+* **Feed integration**
+  * Optional left-page content integration such as a Discover-style feed.
+* **Google Feed**
+  * Also known as Google Discover. A content feed that shows news and other personalized content.
+* `MINUS_ONE_PAGE`
+  * The home screen page used by feed integrations, such as Google Feed.
+  * One can add a new feed by [creating a service in a different app](https://github.com/FabianTerhorst/DrawerOverlayService) then adding it to Lawnchair's whitelist.
 
 ### Search
 

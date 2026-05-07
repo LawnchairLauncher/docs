@@ -11,7 +11,7 @@ Launcher3 is designed as a core component of the Android operating system. This 
 * AOSP components prioritize stability, performance, and resource management across diverse hardware and Android versions.
 * Lawnchair inherits design philosophies and legacy structures directly from AOSP. These patterns often differ from Modern Android Development (MAD) practices used in standalone applications.
 
-#### Characteristics inherited from AOSP
+### Characteristics inherited from AOSP
 
 Lawnchair inherits several characteristics from its AOSP foundation:
 
@@ -20,4 +20,23 @@ Lawnchair inherits several characteristics from its AOSP foundation:
 * Platform-level optimizations to maintain a minimal resource footprint.
 * Resilience against system-wide crashes through robust error handling.
 
-To dive deeper into the technical principles governing the codebase, refer to [AOSP design patterns](aosp-design-patterns.md) and L[awnchair design patterns](lawnchair-design-patterns.md). You can also consult the Glossary for definitions of project-specific terminology.
+To dive deeper into the technical principles governing the codebase, refer to [AOSP design patterns](aosp-design-patterns.md) and [Lawnchair design patterns](lawnchair-design-patterns.md). You can also consult the Glossary for definitions of project-specific terminology.
+
+### Project structure
+
+Lawnchair is composed of multiple Gradle modules. The most important ones are listed below:
+
+* `lawnchair`&#x20;
+  * Contains Lawnchair-specific code and UI. Generally, most changes should be done here.
+* `src`
+  * Contains the core code of Launcher3 with modifications.
+* `quickstep`
+  * Contains the implementation of QuickStep, which enables Recents integration
+* [`platforms/frameworks/libs/systemui`](https://github.com/LawnchairLauncher/platform_frameworks_libs_systemui)
+  * Contains multiple libraries in SystemUI used by Lawnchair. See the linked repository for further information.
+
+### Code quality and testing
+
+Lawnchair prioritizes feature availability and user-facing stability.
+
+Currently, the project **does not utilize unit tests or automated UI tests**. Code quality is maintained through manual verification by contributors and core maintainers, alongside feedback from our community via GitHub issues and Nightly build testers.

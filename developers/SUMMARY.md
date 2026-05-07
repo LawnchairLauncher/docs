@@ -12,15 +12,20 @@
 * [Lawnchair design patterns](architecture/lawnchair-design-patterns.md)
 * [Glossary](architecture/glossary.md)
 
+## Concepts
+
+* [UI frameworks](concepts/ui-frameworks.md)
+* [Preferences](concepts/preferences.md)
+* [Icon packs](concepts/icon-packs.md)
+
+## How-Tos
+
+* [Adding a search provider](how-tos/adding-a-search-provider.md)
+
 ## Standards
 
 * [Development workflow](standards/development-workflow.md)
 * [Coding standards](standards/coding-standards.md)
-
-## Lawnchair
-
-* [Getting started](lawnchair/getting-started.md)
-* [Icon pack support](lawnchair/icon-pack-support.md)
 
 ## Lawnicons
 
