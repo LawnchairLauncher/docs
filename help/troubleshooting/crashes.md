@@ -35,9 +35,7 @@ If Lawnchair is crashing frequently, try these general steps:
 
 <summary>Restart Lawnchair</summary>
 
-1. Open **Home settings**.
-2. Tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
-3. Tap **Restart Lawnchair**.
+{% include "../.gitbook/includes/restart-lawnchair.md" %}
 
 </details>
 

@@ -12,7 +12,7 @@ This includes permissions such as notification access and accessibility services
 To use these features in Lawnchair, you may need to allow restricted settings for the app.
 
 {% hint style="info" %}
-This is usually only required for sideloaded **GitHub** and **Nightly** builds. It is usually not needed for the Play Story builds.
+This is usually only required for sideloaded **GitHub** and **Nightly** builds. It is usually not needed for the Play Store build.
 {% endhint %}
 
 ### Allow restricted settings for Lawnchair

@@ -56,8 +56,7 @@ Some issues come from Smartspacer itself. Before reporting a Lawnchair bug, chec
 
 If the widget disappears, restarting Lawnchair often restores it:
 
-1. Open **Home settings** → **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
-2. Tap **Restart Lawnchair**.
+{% include "../.gitbook/includes/restart-lawnchair.md" %}
 
 </details>
 

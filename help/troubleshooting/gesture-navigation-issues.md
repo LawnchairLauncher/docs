@@ -54,7 +54,7 @@ Google fixed this in Android 13, but some OEMs reintroduced it by modifying the 
 
 If this happens:
 
-1. Go to **Home settings**, then tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+{% include "../.gitbook/includes/go-to-home-settings-more.md" %}
 2. Tap <i class="fa-flask">:flask:</i> **Experimental features**.
 3. Turn off **Use GestureNavContract API**.
 
