@@ -108,8 +108,8 @@ The QuickSwitch app itself does not support Android 14 or above. You **must** us
 
 This usually means QuickSwitch is not compatible with your current system setup.
 
-* Your immediate priority is to disable the QuickSwitch module via your root solution's recovery mode and reboot your device.
-* Once your system is stable, ensure you are using the latest version listed in [Choosing a version](../getting-started/choosing-a-version.md).
+* Your immediate priority is to turn off the QuickSwitch module from your root solution's recovery mode, then reboot your device.
+* Once your system is stable, make sure you are using the latest version listed in [Choosing a version](../getting-started/choosing-a-version.md).
 * If the issue persists, follow [Crashes](../troubleshooting/crashes.md) and mention QuickSwitch in your report.
 
 </details>
@@ -121,7 +121,7 @@ This usually means QuickSwitch is not compatible with your current system setup.
 This message appears when Lawnchair's Quickstep support cannot integrate with your system, even with QuickSwitch.
 
 * Switch back to your system Quickstep provider.
-* Ensure you are using the latest version listed in [Choosing a version](../getting-started/choosing-a-version.md).
+* Make sure you are using the latest version listed in [Choosing a version](../getting-started/choosing-a-version.md).
 * If no update fixes it, your device may not be fully compatible.
 * Check the [Lawnchair issue tracker](https://github.com/LawnchairLauncher/lawnchair/issues) for similar reports.
 

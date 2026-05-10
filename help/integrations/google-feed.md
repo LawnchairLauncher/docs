@@ -46,7 +46,7 @@ On some devices, Lawnfeed may not connect to Google Feed reliably.
 
 If you've tried the above steps and still experience problems, consider using AIDL Bridge as your feed provider instead:
 
-1. Ensure AIDL Bridge is installed.
+1. Make sure AIDL Bridge is installed.
 2. Go to **Home settings** → **Home screen**.
 3. Tap **Feed provider**, then select **AIDL Bridge** from the list.
 

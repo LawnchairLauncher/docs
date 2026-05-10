@@ -33,7 +33,7 @@ You may see some of these issues, all of them, or none of them.
 
 ### Options for improving gesture navigation
 
-While many issues are caused by system-level limitations beyond Lawnchair's direct control, here are the main approaches to managing your gesture experience.
+Many of these issues come from Android or OEM limits rather than Lawnchair itself. Here are the main ways to improve the experience.
 
 #### For non-rooted users
 
@@ -62,7 +62,7 @@ If this happens:
 
 #### For rooted users
 
-If your device is rooted, using the **QuickSwitch Magisk module** is highly recommended.
+If your device is rooted, the **QuickSwitch Magisk module** is usually the most effective option.
 
 QuickSwitch allows Lawnchair to integrate as the system's Recents provider. This provides a more consistent animation experience.
 

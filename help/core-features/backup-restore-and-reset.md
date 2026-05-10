@@ -28,7 +28,7 @@ Most settings are backed up automatically, including:
 <summary>What is not included in a backup</summary>
 
 * **Widgets**
-  * Widget placement is saved, but widget data and internal configuration are not.
+  * Widget placement is saved, but widget data and internal settings are not.
   * You need to reconfigure widgets after a restore.
 * **Third-party apps**
   * Integrations such as icon packs and Smartspacer still require their related apps to be installed.
@@ -100,8 +100,8 @@ To restore a Nova backup:
 2. Tap <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> **Restore Nova backup**.
 3. On the screen that appears, find and select your backup file.
 4. A confirmation screen will appear, showing a summary of what will be restored.
-   * If your Nova setup used subgrid positioning, Lawnchair will warn you that those items will be aligned to the standard grid.
-   * You can optionally tap **Add extra row to show At a Glance** if you wish to show this feature.
+  * If your Nova setup used subgrid positioning, Lawnchair will warn you that those items will be aligned to the standard grid.
+  * You can optionally tap **Add extra row to show At a Glance** if you want to show this feature.
 5. Tap **Restore**.
 
 ### Reset settings to default
@@ -111,7 +111,7 @@ This resets Lawnchair to its default state.
 All custom settings, including your home screen layout, will be lost.
 
 {% hint style="danger" %}
-**Important:** This action is irreversible. Ensure you have created a backup if you wish to save your current setup before proceeding.
+**Important:** This action is irreversible. Make sure you have created a backup if you want to save your current setup before proceeding.
 {% endhint %}
 
 To reset Lawnchair:
@@ -138,9 +138,9 @@ Make sure the `.lawnchairbackup` file is stored on internal storage or in a clou
 
 If your backup fails to restore:
 
-* Ensure the filename does not contain unusual or unsupported characters. Try renaming it to something simple, such as `backup.lawnchairbackup`.
+* Make sure the filename does not contain unusual or unsupported characters. Try renaming it to something simple, such as `backup.lawnchairbackup`.
 * Make sure the file is fully downloaded to your device.
-* Ensure the backup is compatible with your installed Lawnchair version.
+* Make sure the backup is compatible with your installed Lawnchair version.
 * Re-download or recreate the backup if you suspect it is corrupted.
 
 </details>

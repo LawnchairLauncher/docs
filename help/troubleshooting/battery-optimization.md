@@ -19,7 +19,7 @@ If your device’s system kills Lawnchair to save battery, you may experience th
 
 #### How to fix these issues
 
-To ensure Lawnchair works reliably, you should turn off battery optimization for the app.
+To keep Lawnchair working reliably, turn off battery optimization for the app.
 
 Because each manufacturer handles these settings differently, the exact steps vary by device.
 

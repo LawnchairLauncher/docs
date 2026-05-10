@@ -22,8 +22,7 @@ Download and install the build you chose in [Choosing a version](choosing-a-vers
 After installation, tell Android to use Lawnchair as your default launcher.
 
 1. Long-press the home screen, then tap **Home settings**.
-2. In Home settings, tap the card that states:
-   * **To access shortcuts and additional features, set Lawnchair as your default launcher**
+2. In **Home settings**, tap the card that says "To access shortcuts and additional features, set Lawnchair as your default launcher".
 3. In the screen that appears, select **Lawnchair** from the list.
 {% endstep %}
 {% endstepper %}

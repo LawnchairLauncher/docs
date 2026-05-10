@@ -46,6 +46,6 @@ This can happen after the home screen has been inactive for a while.
 To fix it:
 
 1. Long-press the home screen, then tap **Home settings**.
-2. Tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i> → <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> **Restart Lawnchair**.
+2. Tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>, then tap <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> **Restart Lawnchair**.
 
 </details>

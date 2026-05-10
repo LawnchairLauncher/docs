@@ -69,12 +69,12 @@ This option links the behavior and appearance of both search bars:
 
 <summary>Choose the search algorithm</summary>
 
-You can choose which backend Lawnchair uses to find results in the app drawer.
+You can choose how Lawnchair finds results in the app drawer.
 
 1. Tap **Search algorithm**.
-2. Choose an algorithm from the list.
-   1. **App search**: Searches installed apps only.
-   2. **Global search (on-device)**: Searches apps, contacts, files, settings, and other local sources.
+2. Choose an option from the list:
+  * **App search**: Searches installed apps only.
+  * **Global search (on-device)**: Searches apps, contacts, files, settings, and other content stored on your device.
 
 </details>
 
@@ -84,10 +84,10 @@ You can choose which backend Lawnchair uses to find results in the app drawer.
 
 If you choose **Global search (on-device)**, more options appear under **Show in search results**.
 
-You can turn categories on or off. Some categories also have their own settings.
+You can turn categories on or off. Some categories also include extra settings.
 
 * **Apps and shortcuts**
-  * Supports fuzzy matching, so small typos still work.
+  * Can still find results when you make small typing mistakes.
 * **Web suggestions**
   * Lets you choose a built-in provider or a custom one.
   * If you use a custom provider, follow the URL instructions shown in settings.
@@ -112,9 +112,9 @@ You can turn categories on or off. Some categories also have their own settings.
 
 <summary>Search results are incomplete or not appearing</summary>
 
-* Check your selected **Search algorithm**. Ensure it matches the type of results you expect.
+* Check your selected **Search algorithm**. Make sure it matches the type of results you want.
 * If you use **Global search (on-device)**, make sure the right result types are turned on.
-* Ensure Lawnchair has the permissions it needs.
+* Make sure Lawnchair has the permissions it needs.
 * Check [Battery optimization](../troubleshooting/battery-optimization.md).
 
 </details>

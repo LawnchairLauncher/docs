@@ -50,12 +50,12 @@ You can find supported icon packs here:
 
 #### Themed icons
 
-Themed icons are a modern Android feature that provides single-color, monochrome versions of icons. Lawnchair then dynamically colors these icons to match your device's wallpaper and theme. Themed icons use monochrome icon shapes that Lawnchair recolors to match your wallpaper and theme.
+Themed icons are a modern Android feature that provides single-color, monochrome versions of icons. Lawnchair recolors them to match your wallpaper and theme.
 
 {% include "../.gitbook/includes/turn-on-themed-icons.md" %}
 
 {% hint style="info" %}
-For the best themed icon experience, ensure you have a compatible icon source.
+For the best themed icon experience, make sure you have a compatible icon source.
 
 Lawnicons is built for Lawnchair and works as both an icon pack and a themed icon source. See [Lawnicons](../integrations/lawnicons.md) for details.
 {% endhint %}

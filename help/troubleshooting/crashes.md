@@ -43,10 +43,10 @@ If Lawnchair is crashing frequently, try these general steps:
 
 <details>
 
-<summary>Clear application cache</summary>
+<summary>Clear the app cache</summary>
 
 1. Open **Home settings**.
-2. Tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i> .
+2. Tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 3. Tap **App info**.
 4. Open **Storage and cache**.
 5. Tap **Clear cache**.
