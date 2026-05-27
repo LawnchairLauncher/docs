@@ -19,7 +19,7 @@ This is usually only required for sideloaded **GitHub** and **Nightly** builds. 
 
 {% stepper %}
 {% step %}
-### Trigger the restricted setting message
+#### Trigger the restricted setting message
 
 Try to turn on a setting that needs restricted access, such as an accessibility service.
 
@@ -27,7 +27,11 @@ You must see the **Restricted setting** message for the next steps to work corre
 {% endstep %}
 
 {% step %}
-### Grant the requested permission
+#### Grant the requested permission
+
+{% hint style="warning" %}
+**Important:** Some devicesmay not follow these exact instructions. If these steps don't work for you, [search the web](https://www.google.com/search?q=android+turn+on+restricted+settings) for the exact steps.
+{% endhint %}
 
 1. Open **Home settings**.
 2. Tap **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i> > **App info**.

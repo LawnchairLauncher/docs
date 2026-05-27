@@ -3,8 +3,8 @@
 ## Getting started
 
 * [What is Lawnchair?](README.md)
-* [Choosing a version](getting-started/choosing-a-version.md)
-* [Install and setup](getting-started/install-and-setup.md)
+* [Choose a version](getting-started/choose-a-version.md)
+* [Setup Lawnchair](getting-started/install-and-setup.md)
 
 ## Core features
 

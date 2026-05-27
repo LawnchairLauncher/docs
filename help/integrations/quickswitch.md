@@ -44,7 +44,7 @@ QuickSwitch support depends on your Android version and ROM.
 
 {% stepper %}
 {% step %}
-#### Install the Magisk module
+**Install the Magisk module**
 
 1. Open the Magisk app (or equivalent root solution manager).
 2. Go to the **Modules** section.
@@ -55,13 +55,13 @@ QuickSwitch support depends on your Android version and ROM.
 {% endstep %}
 
 {% step %}
-#### Set Lawnchair as the default launcher
+**Set Lawnchair as the default launcher**
 
 To set Lawnchair as your default launcher, follow the steps listed in [Install and setup](../getting-started/install-and-setup.md).
 {% endstep %}
 
 {% step %}
-#### Choose Lawnchair as the Recents provider
+**Choose Lawnchair as the Recents provider**
 
 Choose one of the methods below based on your Android version and root solution.
 
@@ -84,6 +84,10 @@ If you are running Android 14, using KernelSU or APatch, or if the app does not 
     ```shellscript
     /data/adb/modules/quickswitch/quickswitch --ch=app.lawnchair
     ```
+
+    * The above works for the GitHub version.
+    * For the Nightly and Play Store versions, use `app.lawnchair.nightly` and `app.lawnchair.play`, respectively.
+    * If you are using a different package name, adjust `app.lawnchair` to match the respective package name.
 4. Reboot your device to apply the changes.
 {% endtab %}
 {% endtabs %}
@@ -98,7 +102,9 @@ After rebooting, Lawnchair should be handling system gestures and the Recents sc
 
 <summary>QuickSwitch app not working on Android 14 or newer</summary>
 
-The QuickSwitch app itself does not support Android 14 or above. You **must** use the terminal command method (Method B above) to activate Lawnchair as the Recents provider.
+The QuickSwitch app itself does not support Android 14 or above.
+
+You **must** use the terminal command method (Method B above) to activate Lawnchair as the Recents provider.
 
 </details>
 
@@ -109,7 +115,7 @@ The QuickSwitch app itself does not support Android 14 or above. You **must** us
 This usually means QuickSwitch is not compatible with your current system setup.
 
 * Your immediate priority is to turn off the QuickSwitch module from your root solution's recovery mode, then reboot your device.
-* Once your system is stable, make sure you are using the latest version listed in [Choosing a version](../getting-started/choosing-a-version.md).
+* Once your system is stable, make sure you are using the latest version listed in [Choosing a version](../getting-started/choose-a-version.md).
 * If the issue persists, follow [Crashes](../troubleshooting/crashes.md) and mention QuickSwitch in your report.
 
 </details>
@@ -121,7 +127,7 @@ This usually means QuickSwitch is not compatible with your current system setup.
 This message appears when Lawnchair's Quickstep support cannot integrate with your system, even with QuickSwitch.
 
 * Switch back to your system Quickstep provider.
-* Make sure you are using the latest version listed in [Choosing a version](../getting-started/choosing-a-version.md).
+* Make sure you are using the latest version listed in [Choosing a version](../getting-started/choose-a-version.md).
 * If no update fixes it, your device may not be fully compatible.
 * Check the [Lawnchair issue tracker](https://github.com/LawnchairLauncher/lawnchair/issues) for similar reports.
 

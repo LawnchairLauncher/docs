@@ -3,7 +3,7 @@ description: Install Lawnchair and set it as your default home app.
 icon: download
 ---
 
-# Install and setup
+# Setup Lawnchair
 
 Lawnchair only takes a few minutes to set up.
 
@@ -11,19 +11,19 @@ Install the build you chose, then set Lawnchair as your default launcher.
 
 {% stepper %}
 {% step %}
-### Install the app
+#### Install the app
 
-Download and install the build you chose in [Choosing a version](choosing-a-version.md).
+Download and install the build you chose in [Choosing a version](choose-a-version.md).
 {% endstep %}
 
 {% step %}
-### Set Lawnchair as default home app
+#### Set Lawnchair as default home app
 
 After installation, tell Android to use Lawnchair as your default launcher.
 
 1. Long-press the home screen, then tap **Home settings**.
 2. In **Home settings**, tap the card that says "To access shortcuts and additional features, set Lawnchair as your default launcher".
-3. In the screen that appears, select **Lawnchair** from the list.
+3. In the screen that appears, choose **Lawnchair** from the list.
 {% endstep %}
 {% endstepper %}
 

@@ -37,7 +37,7 @@ This is a generic Android error with several possible causes when you sideload a
 
 You might have downloaded an APK file that has been modified or originates from an unofficial source. These often have different digital signatures that prevent installation.
 
-**Solution:** Download Lawnchair from an official source listed in [Choosing a version](../getting-started/choosing-a-version.md).
+**Solution:** Download Lawnchair from an official source listed in [Choosing a version](../getting-started/choose-a-version.md).
 
 </details>
 

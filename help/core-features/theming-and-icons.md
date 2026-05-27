@@ -5,9 +5,7 @@ icon: palette
 
 # Theming and icons
 
-Lawnchair lets you customize icons, colors, and fonts.
-
-Use these settings to match your home screen to your style.
+Lawnchair lets you customize icons, colors, and fonts. Use these settings to match your home screen to your style.
 
 ### Customize icons
 
