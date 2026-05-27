@@ -29,7 +29,7 @@ In many modern apps, state flows from a data source through a repository to a Vi
 
 Our UI structure follows a **70/20/10 complexity rule**:
 
-* For s**imple settings**, which use standard toggles and sliders, use direct state access via `getAdapter()` in the Composable. Avoid ViewModels or extra layers.
+* For **simple settings**, which use standard toggles and sliders, use direct state access via `getAdapter()` in the Composable. Avoid ViewModels or extra layers.
 * For more **complex screens** with localized logic, such as search filters or file picking, use `remember`, `derivedStateOf`, and `produceState` within the Composable.
 * Screens that mix multiple data sources or remote APIs must follow a full MVVM pattern using `AndroidViewModel` and `StateFlow` to ensure the code remains readable.
 

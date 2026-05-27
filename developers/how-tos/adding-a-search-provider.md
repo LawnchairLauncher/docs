@@ -1,6 +1,8 @@
 # Adding a search provider
 
-The docksearch bar supports multiple search providers. New web-based search engines can be added by implementing the search provider contract and registering them in the centralized provider list.
+The dock search bar (hotseat qsb) supports multiple search providers.
+
+New web-based search engines can be added by implementing the search provider contract and registering them in the centralized provider list.
 
 ### Implementation contract
 

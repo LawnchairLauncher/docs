@@ -2,15 +2,29 @@
 
 Lawnchair code must be logical, well-formatted, and respect the architectural zone it inhabits.
 
-#### Language conventions
+### Language conventions
 
 As seen in the [project overview](../architecture/project-overview.md), Lawnchair uses a mix of paradigms:
 
-* For Kotlin, follow the official [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html). New Lawnchair-specific features should be written in Kotlin.
+* For Kotlin, follow the official [Kotlin coding conventions](https://kotlinlang.org/docs/coding-conventions.html).
+  * New Lawnchair-specific features must be written in Kotlin.
 * For existing Java code, follow the existing style seen in the codebase.&#x20;
 * Place Lawnchair-specific logic in the `lawnchair` package. Minimize changes to the `src` package to facilitate AOSP rebases.
 
-#### String naming
+### Modifying AOSP files
+
+When modifying AOSP files, document changes you made with the prefix `LC-Note(<optional modifier>): <reason>` and logs with the prefix `LC-`:
+
+```java
+// Example
+// LC-Note: These changes are needed to support API X.
+public void onChange(Boolean value) {
+    Log.d("LC-BaseActivity", "Doing something on change")
+    ...
+}
+```
+
+### String naming
 
 Strings in `strings.xml` must follow the standardized naming format to ensure maintainability and ease of translation.
 

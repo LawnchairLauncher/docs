@@ -9,7 +9,8 @@ State management in Lawnchair relies on reading these preferences throughout the
 Lawnchair utilizes two distinct preference managers:
 
 * [`PreferenceManager` (`prefs`)](https://github.com/LawnchairLauncher/lawnchair/blob/16-dev/lawnchair/src/app/lawnchair/preferences/PreferenceManager.kt): The legacy manager utilizing `SharedPreferences` as the backend. Avoid adding new keys to this manager.
-* [`PreferenceManager2` (`prefs2`)](https://github.com/LawnchairLauncher/lawnchair/blob/16-dev/lawnchair/src/app/lawnchair/preferences2/PreferenceManager2.kt): The modern manager utilizing Preference Datastore. This is the required location for all new settings, as it supports non-primitive data types and allows fetching default values from `config.xml`.
+  * If adding keys, make sure to ensure that your key does not conflict with Launcher3's existing keys.
+* [`PreferenceManager2` (`prefs2`)](https://github.com/LawnchairLauncher/lawnchair/blob/16-dev/lawnchair/src/app/lawnchair/preferences2/PreferenceManager2.kt): The modern _&#x6D;_&#x61;nager utilizing Preference Datastore. This is the required location for all new settings, as it supports non-primitive data types and allows fetching default values from `config.xml`.
 
 ### Implementing a new preference
 
@@ -28,7 +29,7 @@ class PreferenceManger2 ... {
 }
 ```
 
-_Note: For legacy compatibility, a preference in `PreferenceManager` would be defined as `val examplePref = BoolPref("example_pref", false)`._
+A preference in `PreferenceManager` would be defined as `val examplePref = BoolPref("example_pref", false)`.
 
 ### Reading preference values
 
@@ -41,7 +42,7 @@ val prefs2 = PreferenceManager2.getInstance(context)
 val key: Boolean = prefs2.examplePref.firstBlocking()
 ```
 
-_Note: For legacy `prefs`, the retrieval method is `prefs.examplePref.get()`._
+For legacy `prefs`, the retrieval method is `prefs.examplePref.get()`.
 
 Setting preference values should generally not occur within the core launcher UI or Quickstep logic. Modifying state is the responsibility of the Lawnchair settings UI.
 

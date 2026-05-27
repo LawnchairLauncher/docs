@@ -6,7 +6,8 @@ Read this page once you have decided to contribute code. It covers local setup a
 
 * [Android Studio](https://developer.android.com/studio/preview)
 * Git
-* At least 16 GB of RAM
+* At least 8 GB of RAM
+  * 16 GB of RAM is recommended to comfortably multitask with other apps.
 
 macOS or Linux is recommended.
 

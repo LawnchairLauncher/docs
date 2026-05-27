@@ -2,6 +2,10 @@
 
 Contributing code to Lawnchair will take patience. This page helps you decide if it is a good fit and shows other ways to help.
 
+{% hint style="warning" %}
+Lawnchair is not a good first open-source codebase for most contributors. If you are new to Android internals or open source, start with a smaller task or one of the alternatives below.
+{% endhint %}
+
 ### Who this is for
 
 This guide fits you best if:
@@ -9,10 +13,6 @@ This guide fits you best if:
 * You know Kotlin and the basics of Android development.
 * You are comfortable reading Java, XML Views, and Compose.
 * You can work through tricky debugging and slower review cycles.
-
-{% hint style="warning" %}
-Lawnchair is not a good first open-source codebase for most contributors. If you are new to Android internals or open source, start with a smaller task or one of the alternatives below.
-{% endhint %}
 
 ### Why contributing is hard
 
