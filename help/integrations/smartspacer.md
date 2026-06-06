@@ -20,14 +20,14 @@ You can use Smartspacer for either feature, or both.
 
 #### As an At a Glance replacement
 
-1. Go to **Home settings** → **At a Glance**.
+1. Go to **Home settings** > **At a Glance**.
 2. Tap **At a Glance provider**, then select **Smartspacer** from the list.
 3. Return to your home screen. You will see a message that says **Smartspacer Permission Required**. Tap it.
 4. In the permission dialog that appears, tap **Allow**.
 
 #### As an alternative feed provider
 
-1. Go to **Home settings** → **Home screen**.
+1. Go to **Home settings** > **Home screen**.
 2. Turn on the **Show feed** option.
 3. Tap **Feed provider**, then select **Smartspacer** from the list.
 
@@ -38,12 +38,12 @@ Most Smartspacer features, such as plugins and appearance, are managed in the Sm
 You can open Smartspacer settings in one of three ways:
 
 * Long-press At a Glance, then tap **Customize**.
-* Go to **Home settings** → **At a Glance**, then tap **Open Smartspacer settings**.
+* Go to **Home settings** > **At a Glance**, then tap **Open Smartspacer settings**.
 * Open the **Smartspacer** app.
 
 Lawnchair provides one specific setting for the widget:
 
-1. Go to **Home settings** → **At a Glance**.
+1. Go to **Home settings** > **At a Glance**.
 2. Under **Smartspacer settings**, adjust the slider for **Maximum number of targets**.
 
 ### Common issues

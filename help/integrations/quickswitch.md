@@ -104,7 +104,7 @@ After rebooting, Lawnchair should be handling system gestures and the Recents sc
 
 The QuickSwitch app itself does not support Android 14 or above.
 
-You **must** use the terminal command method (Method B above) to activate Lawnchair as the Recents provider.
+You **must** use the terminal command method (Method B above) to turn on Lawnchair as the Recents provider.
 
 </details>
 

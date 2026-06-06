@@ -19,7 +19,7 @@ Icon packs provide a set of custom, full-color designs for your app icons.
 
 <summary>How to apply icon packs</summary>
 
-1. Go to **Home settings** → **General**.
+1. Go to **Home settings** > **General**.
 2. Tap **Icon style**.
 3. Select the icon pack you want.
 
@@ -83,7 +83,7 @@ Lawnchair also lets you adjust its color scheme.
 
 This setting controls how Lawnchair picks its main colors.
 
-1. Go to **Home settings** → **General**.
+1. Go to **Home settings** > **General**.
 2. Tap **Accent color**.
 3. Choose one of these options:
    1. **System**: Uses the colors provided by your device.
@@ -99,7 +99,7 @@ This setting controls how Lawnchair picks its main colors.
 
 If you use a non-system accent color, you can also change how Lawnchair applies it.
 
-1. Go to **Home settings** → **General**.
+1. Go to **Home settings** > **General**.
 2. Make sure **Accent color** is not set to **System**.
 3. Tap **Color style**.
 4. Choose a style from the list.
@@ -114,7 +114,7 @@ If you use a non-system accent color, you can also change how Lawnchair applies 
 
 After changing fonts, you may need to restart Lawnchair.
 
-* Go to **Home settings** → **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+* Go to **Home settings** > **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 * Tap **Restart Lawnchair**.
 
 </details>

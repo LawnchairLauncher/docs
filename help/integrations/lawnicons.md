@@ -22,7 +22,7 @@ Lawnicons works as both an icon pack and a themed icon source.
 
 #### Use it as an icon pack
 
-1. Go to **Home settings** → **General**.
+1. Go to **Home settings** > **General**.
 2. Tap **Icon style**.
 3. On the screen that appears, choose **Lawnicons** from the list.
 

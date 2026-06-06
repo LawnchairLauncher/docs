@@ -42,7 +42,7 @@ Most settings are backed up automatically, including:
 
 To create a backup:
 
-1. Go to **Home settings** → **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+1. Go to **Home settings** > **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 2. Tap <i class="fa-cloud-plus">:cloud-plus:</i> **Create backup**.
 3. Choose what to include:
    * **Layout and settings**: Backs up everything noted above.
@@ -57,7 +57,7 @@ Restoring applies a previously saved `.lawnchairbackup` file to your current Law
 
 To restore a backup:
 
-1. Go to **Home settings** → **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+1. Go to **Home settings** > **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 2. Tap <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> **Restore backup**.
 3. On the screen that appears, find and select your backup file.
 4. After selecting a backup, you can restore **Layout and settings**, **Wallpaper**, or both.
@@ -96,7 +96,7 @@ This helps if you are moving from Nova Launcher.
 
 To restore a Nova backup:
 
-1. Go to **Home settings** → **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+1. Go to **Home settings** > **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 2. Tap <i class="fa-arrow-rotate-left">:arrow-rotate-left:</i> **Restore Nova backup**.
 3. On the screen that appears, find and select your backup file.
 4. A confirmation screen will appear, showing a summary of what will be restored.
@@ -116,7 +116,7 @@ All custom settings, including your home screen layout, will be lost.
 
 To reset Lawnchair:
 
-1. Go to **Home settings** → **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
+1. Go to **Home settings** > **More** <i class="fa-ellipsis-vertical">:ellipsis-vertical:</i>.
 2. Tap <i class="fa-circle-info">:circle-info:</i> **App info**.
 3. On the screen that appears, tap **Storage and cache**.
 4. Tap <i class="fa-trash-can">:trash-can:</i> **Clear storage**.

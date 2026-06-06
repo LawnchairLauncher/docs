@@ -10,7 +10,7 @@ Smooth gesture navigation is a big part of a good launcher experience.
 On Android, results with third-party launchers can vary a lot by device, Android version, and OEM software.
 
 {% hint style="info" %}
-Gesture navigation on this page means _system navigation gestures_, not Lawnchair gestures under **Home settings** → **Gestures**.
+Gesture navigation on this page means _system navigation gestures_, not Lawnchair gestures under **Home settings** > **Gestures**.
 {% endhint %}
 
 ### How does gesture navigation work?

@@ -11,7 +11,7 @@ Lawnchair search helps you find apps, contacts, settings, files, and web results
 
 The _dock search bar_ sits at the bottom of the home screen.
 
-To change settings related to this feature, go to **Home settings** → **Search bar**, then tap the **Dock** tab.
+To change settings related to this feature, go to **Home settings** > **Search bar**, then tap the **Dock** tab.
 
 <details>
 
@@ -50,7 +50,7 @@ You can adjust the search bar under the **Style** section.
 
 The _app drawer search bar_ is built for searching both on-device content and the web.
 
-To change settings related to this feature, go to **Home settings** → **Search bar**, then tap the **App drawer** tab near the top of the screen.
+To change settings related to this feature, go to **Home settings** > **Search bar**, then tap the **App drawer** tab near the top of the screen.
 
 <details open>
 
