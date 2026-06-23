@@ -5,6 +5,8 @@
 * [What is Lawnchair?](README.md)
 * [Choose a version](getting-started/choose-a-version.md)
 * [Setup Lawnchair](getting-started/install-and-setup.md)
+* [Contribute code](https://app.gitbook.com/s/acjqViWIhLF2iJAW72GW/)
+* [Get involved](https://app.gitbook.com/s/6t9zDE3woL9vF6pobrxs/get-involved)
 
 ## Core features
 
