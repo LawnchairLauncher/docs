@@ -19,3 +19,9 @@ If you have an idea for a new feature or an enhancement to an existing one, you 
 * Clearly describe the feature and its potential benefits.
 
 [Request a feature on GitHub](https://github.com/LawnchairLauncher/lawnchair/issues/new?template=feature_request.yaml)
+
+### Triage issues
+
+If you want to help manage Lawnchair' issue tracker, visit our page on how to triage issues.
+
+[triage-issues.md](triage-issues.md "mention")
