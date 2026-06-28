@@ -18,6 +18,12 @@ Allowed types include: `feat`, `fix`, `style`, `refactor`, `perf`, `docs`, `test
 
 Lawnchair version codes utilize a five-part structure to ensure compatibility and track development stages.
 
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="../.gitbook/assets/version-dark.svg" width="98%">
+    <img alt="" src="../.gitbook/assets/version-light.svg" width="98%">
+    <!-- Direct the accessibility reader to read the point below --->
+</picture>
+
 1. **Android major version**
 2. **Android minor version**
 3. **Development stage** (00: Dev, 01: Alpha, 02: Beta, 03: RC, 04: Release)
