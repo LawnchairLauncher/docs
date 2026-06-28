@@ -19,8 +19,8 @@ Allowed types include: `feat`, `fix`, `style`, `refactor`, `perf`, `docs`, `test
 Lawnchair version codes utilize a five-part structure to ensure compatibility and track development stages.
 
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="../.gitbook/assets/version-dark.svg" width="98%">
-    <img alt="" src="../.gitbook/assets/version-light.svg" width="98%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LawnchairLauncher/docs/main/developers/.gitbook/assets/version-dark.svg" width="98%">
+    <img alt="" src="https://raw.githubusercontent.com/LawnchairLauncher/docs/main/developers/.gitbook/assets/version-light.svg" width="98%">
     <!-- Direct the accessibility reader to read the point below --->
 </picture>
 
