@@ -13,7 +13,7 @@ Install the build you chose, then set Lawnchair as your default launcher.
 {% step %}
 #### Install the app
 
-Download and install the build you chose in [Choosing a version](choose-a-version.md).
+Download and install the build you chose in [Choosing a version](../choose-a-version.md).
 {% endstep %}
 
 {% step %}
@@ -29,4 +29,12 @@ After installation, tell Android to use Lawnchair as your default launcher.
 
 ### Need help?
 
-If installation fails, see [Installation issues](../troubleshooting/installation-issues.md).
+If installation fails, see [Installation issues](../../troubleshooting/installation-issues.md).
+
+<details>
+
+<summary><strong>Advanced</strong>: Verify your installation</summary>
+
+Security-conscious users can verify the cryptographic integrity of our packages by [reviewing our verification guide](verify.md).
+
+</details>

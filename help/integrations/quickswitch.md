@@ -57,7 +57,7 @@ QuickSwitch support depends on your Android version and ROM.
 {% step %}
 **Set Lawnchair as the default launcher**
 
-To set Lawnchair as your default launcher, follow the steps listed in [Install and setup](../getting-started/install-and-setup.md).
+To set Lawnchair as your default launcher, follow the steps listed in [Install and setup](../getting-started/install-and-setup/).
 {% endstep %}
 
 {% step %}
