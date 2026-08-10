@@ -9,7 +9,7 @@ Before reporting a bug, please check if the issue is already known by checking o
 * **For crashes,** please follow the specific instructions in [our reporting crashes guide](https://app.gitbook.com/s/AIacWTbuc2FAEgCbTojQ/troubleshooting/crashes) to capture and include a crash log. A report without a crash log is often not actionable.
 * **For other bugs,** provide clear, step-by-step instructions on how to reproduce the issue. Include your device model, Android version, and Lawnchair version.
 
-[Report a bug on GitHub](https://github.com/LawnchairLauncher/lawnchair/issues/new?template=bug_report.yaml)
+<a href="https://github.com/LawnchairLauncher/lawnchair/issues/new?template=bug_report.yaml" class="button primary" data-icon="bug">Report a bug on GitHub</a>
 
 ### Requesting a feature
 
@@ -18,10 +18,10 @@ If you have an idea for a new feature or an enhancement to an existing one, you 
 * Please check if a similar feature has already been requested before creating a new one.
 * Clearly describe the feature and its potential benefits.
 
-[Request a feature on GitHub](https://github.com/LawnchairLauncher/lawnchair/issues/new?template=feature_request.yaml)
+<a href="https://github.com/LawnchairLauncher/lawnchair/issues/new?template=feature_request.yaml" class="button primary" data-icon="square-star">Request a feature on GitHub</a>
 
 ### Triage issues
 
 If you want to help manage Lawnchair' issue tracker, visit our page on how to triage issues.
 
-[triage-issues.md](triage-issues.md "mention")
+<a href="triage-issues.md" class="button primary" data-icon="circle-dot">Learn how to triage issues</a>

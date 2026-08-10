@@ -4,4 +4,4 @@ As a free and open-source project, Lawnchair relies on community support to cove
 
 If you find Lawnchair useful and would like to support its continued development and maintenance, you can make a donation through our Open Collective page.
 
-{% embed url="https://opencollective.com/lawnchair/" %}
+<a href="https://opencollective.com/lawnchair" class="button primary" data-icon="gratipay">Donate to Lawnchair on Open Collective</a>

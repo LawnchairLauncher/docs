@@ -48,3 +48,5 @@ The out-of-the-box experience is recommended because it shows users what to expe
 You can find the official Lawnchair branding assets, including logos and wordmarks, on our Figma design site.
 
 {% embed url="https://www.figma.com/design/E2iq7FaYEkJ7waxG42ZYl0/Lawnchair-brand-kit" %}
+
+<a href="https://www.figma.com/file/E2iq7FaYEkJ7waxG42ZYl0?type=design&#x26;mode=design" class="button primary" data-icon="figma">Open design kit on Figma</a>

@@ -4,6 +4,7 @@
 
 * [Roadmap and future features](README.md)
 * [Project history](about/project-history.md)
+* [Rejected features](about/rejected-features.md)
 
 ## Get involved
 
