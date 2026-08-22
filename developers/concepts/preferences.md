@@ -10,7 +10,7 @@ Lawnchair utilizes two distinct preference managers:
 
 * [`PreferenceManager` (`prefs`)](https://github.com/LawnchairLauncher/lawnchair/blob/16-dev/lawnchair/src/app/lawnchair/preferences/PreferenceManager.kt): The legacy manager utilizing `SharedPreferences` as the backend. Avoid adding new keys to this manager.
   * If adding keys, make sure to ensure that your key does not conflict with Launcher3's existing keys.
-* [`PreferenceManager2` (`prefs2`)](https://github.com/LawnchairLauncher/lawnchair/blob/16-dev/lawnchair/src/app/lawnchair/preferences2/PreferenceManager2.kt): The modern _&#x6D;_&#x61;nager utilizing Preference Datastore. This is the required location for all new settings, as it supports non-primitive data types and allows fetching default values from `config.xml`.
+* [`PreferenceManager2` (`prefs2`)](https://github.com/LawnchairLauncher/lawnchair/blob/16-dev/lawnchair/src/app/lawnchair/preferences2/PreferenceManager2.kt): The modern manager utilizing Preference Datastore. This is the required location for all new settings, as it supports non-primitive data types and allows fetching default values from `config.xml`.
 
 ### Implementing a new preference
 
