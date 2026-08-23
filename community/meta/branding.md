@@ -49,4 +49,4 @@ You can find the official Lawnchair branding assets, including logos and wordmar
 
 {% embed url="https://www.figma.com/design/E2iq7FaYEkJ7waxG42ZYl0/Lawnchair-brand-kit" %}
 
-<a href="https://www.figma.com/file/E2iq7FaYEkJ7waxG42ZYl0?type=design&#x26;mode=design" class="button primary" data-icon="figma">Open design kit on Figma</a>
+<a href="https://www.figma.com/design/E2iq7FaYEkJ7waxG42ZYl0/Lawnchair-brand-kit" class="button primary" data-icon="figma">Open design kit on Figma</a>
