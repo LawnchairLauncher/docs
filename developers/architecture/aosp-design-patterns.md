@@ -91,7 +91,7 @@ The launcher must support a wide range of API levels and potentially broken OEM 
 ```java
 public void setBlurEffect(View view) {
     if (Utilities.ATLEAST_T) {
-        view.setRenderEffect(RenderEffect.createBlurEffect(...));
+        view.setRenderEffect(RenderEffect.createBlurEffect(...))
     } else {
         // Fallback or no-op
     }
