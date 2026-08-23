@@ -39,7 +39,7 @@ Preferences are primarily read by the core launcher logic to determine system be
 val prefs2 = PreferenceManager2.getInstance(context)
 
 // Retrieve the current boolean value
-val key: Boolean = prefs2.examplePref.firstBlocking()
+val key: Boolean = prefs2.examplePref.firstCached()
 ```
 
 For legacy `prefs`, the retrieval method is `prefs.examplePref.get()`.
