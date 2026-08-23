@@ -81,7 +81,7 @@ The launcher must support a wide range of API levels and potentially broken OEM 
 
 **Tips**
 
-* Use runtime checks (`Utilties.ATLEAST_T`) to guard features using newer APIs.
+* Use runtime checks (`Utilities.ATLEAST_T`) to guard features using newer APIs.
   * If you somehow can't access the `Utilities` object, use `Build.VERSION.SDK_INT >= Build.VERSION_CODES.S` instead.
 * Use compatibility wrappers to provide fallbacks for older Android versions.
 * Maintain backwards compatibility for core launcher features.
@@ -90,7 +90,7 @@ The launcher must support a wide range of API levels and potentially broken OEM 
 
 ```java
 public void setBlurEffect(View view) {
-    if (Utilties.ATLEAST_T) {
+    if (Utilities.ATLEAST_T) {
         view.setRenderEffect(RenderEffect.createBlurEffect(...));
     } else {
         // Fallback or no-op
