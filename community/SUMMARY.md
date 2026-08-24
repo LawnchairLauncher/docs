@@ -1,10 +1,11 @@
 # Table of contents
 
-## About Lawnchair <a href="#about" id="about"></a>
+## Project <a href="#about" id="about"></a>
 
 * [Roadmap and future features](README.md)
-* [Project history](about/project-history.md)
 * [Rejected features](about/rejected-features.md)
+* [Contribution quality guidelines](about/quality-guidelines.md)
+* [Project history](about/project-history.md)
 
 ## Get involved
 

@@ -14,7 +14,7 @@ Lawnchair's goal is to be:
 
 Lawnchair is an open-source project driven entirely by volunteers. Contributors work on the project in their free time, alongside jobs, school, and other personal commitments.
 
-Development activity can vary, with periods of rapid progress followed by quieter times. Lawnchair is still actively developed. You can see the latest changes in the commit history on our [GitHub repository](https://github.com/LawnchairLauncher/lawnchair) or by installing Nightly builds.
+Development activity can vary, with periods of rapid progress followed by quieter times. Lawnchair is still actively developed. You can see the latest changes in the commit history on [GitHub](https://github.com/LawnchairLauncher/lawnchair) or by installing Nightly builds.
 
 ### Release policy (ETAs)
 
