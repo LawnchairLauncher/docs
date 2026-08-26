@@ -18,13 +18,14 @@
 * [Preferences](concepts/preferences.md)
 * [Icon packs](concepts/icon-packs.md)
 
-## How-Tos
+## How-Tos <a href="#how-to" id="how-to"></a>
 
-* [Adding a search provider](how-tos/adding-a-search-provider.md)
+* [Add a search provider](how-to/add-search-provider.md)
 
 ## Standards
 
 * [Development workflow](standards/development-workflow.md)
+* [Contribution quality guidelines](https://app.gitbook.com/s/6t9zDE3woL9vF6pobrxs/about/quality-guidelines)
 * [Coding standards](standards/coding-standards.md)
 
 ## Lawnicons

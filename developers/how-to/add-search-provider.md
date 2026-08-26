@@ -1,4 +1,4 @@
-# Adding a search provider
+# Add a search provider
 
 The dock search bar (hotseat qsb) supports multiple search providers.
 
@@ -38,14 +38,13 @@ data object MyEngine : QsbSearchProvider(
 {% endstep %}
 
 {% step %}
-Add the required vector drawable to the `lawnchair/res/drawable/` directory and the engine name string to `lawnchair/res/values/strings.xml`.
+Add the required vector drawable to `lawnchair/res/drawable/` and it's name to `lawnchair/res/values/strings.xml`.
 {% endstep %}
 
 {% step %}
 Register the provider in `QsbSearchProvider` and locate the `companion object`. Add your new engine to the list returned by the `values()` function. Maintain alphabetical order to keep the list organized.
 
-```kotlin
-sealed class QsbSearchProvider(...) {
+<pre class="language-kotlin"><code class="lang-kotlin">sealed class QsbSearchProvider(...) {
     // ...
     companion object {
         fun values() = listOf(
@@ -53,11 +52,11 @@ sealed class QsbSearchProvider(...) {
             Bing,
             DuckDuckGo,
             Google,
-            MyEngine, // Added provider
-        )
+<strong>            MyEngine, // Add your provider here
+</strong>        )
     }
 }
-```
+</code></pre>
 {% endstep %}
 {% endstepper %}
 

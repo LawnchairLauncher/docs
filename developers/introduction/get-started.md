@@ -4,7 +4,7 @@ Read this page once you have decided to contribute code. It covers local setup a
 
 ### Prerequisites
 
-* [Android Studio](https://developer.android.com/studio/preview)
+* [Preview version of Anroid Studio](https://developer.android.com/studio/preview)
 * Git
 * At least 8 GB of RAM
   * 16 GB of RAM is recommended to comfortably multitask with other apps.
@@ -28,6 +28,14 @@ If modules ending in `lib` fail to load, run `git submodule update --init --recu
 ### Creating your first contribution
 
 {% stepper %}
+{% step %}
+#### Read our contribution quality guidelines
+
+Before doing anything else, review our contribution quality guidelines which details what we expect when you make any change.
+
+<a href="https://app.gitbook.com/s/6t9zDE3woL9vF6pobrxs/about/quality-guidelines" class="button primary" data-icon="memo">Contribution quality guidelines</a>
+{% endstep %}
+
 {% step %}
 #### Pick your first change
 
