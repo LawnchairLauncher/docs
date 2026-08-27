@@ -22,6 +22,6 @@ If you have an idea for a new feature or an enhancement to an existing one, you 
 
 ### Triage issues
 
-If you want to help manage Lawnchair' issue tracker, visit our page on how to triage issues.
+If you want to help manage Lawnchair's issue tracker, visit our page on how to triage issues.
 
 <a href="triage-issues.md" class="button primary" data-icon="circle-dot">Learn how to triage issues</a>

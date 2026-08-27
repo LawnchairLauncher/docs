@@ -135,7 +135,7 @@ This message appears when Lawnchair's Quickstep support cannot integrate with yo
 
 <details>
 
-<summary>I'm experiencing other issues with the QuickSwitch magisk module</summary>
+<summary>I'm experiencing other issues with the QuickSwitch Magisk module</summary>
 
 If the QuickSwitch module itself is failing, report it on the [QuickSwitch issue tracker](https://github.com/skittles9823/QuickSwitch/issues).
 

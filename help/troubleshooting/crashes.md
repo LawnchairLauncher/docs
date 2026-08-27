@@ -14,7 +14,7 @@ Lawnchair includes automatic crash reporting.
 When the app crashes, you will usually get a notification that lets you generate a shareable crash log link.
 
 {% hint style="warning" %}
-On Android 14 and newer, you must have **notifications** turned on for Lawnchair to receive these crash reports.
+On Android 13 and newer, you must have **notifications** turned on for Lawnchair to receive these crash reports.
 {% endhint %}
 
 ### How to capture and report a crash
