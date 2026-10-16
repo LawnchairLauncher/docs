@@ -11,7 +11,7 @@ Lawnchair's APKs are cryptographically signed. You can verify the integrity and 
 
 ### SLSA attestation
 
-Every Lawnchair release starting with Lawnchair 15 Beta 1 (excluding Nightly builds) is attested and verified with SLSA provenance. This repository meets the requirements for SLSA Level 2 compliance.
+Every Lawnchair release starting with Lawnchair 15 Beta 1 (excluding Nightly builds) is attested and verified with SLSA provenance. This repository meets the requirements for [SLSA v1.2](https://slsa.dev/spec/v1.2/) Build Level 2 compliance.
 
 {% hint style="info" %}
 You can verify the installation without using the GitHub CLI by cross-referencing checks from [GitHub Attestations](https://github.com/LawnchairLauncher/lawnchair/attestations) with [Sigstore Rekor](https://search.sigstore.dev/).
@@ -26,6 +26,12 @@ To verify using the GitHub CLI:
     ```bash
     gh attestation verify {APK} -R LawnchairLauncher/lawnchair
     ```
+
+#### Errata
+
+SLSA provenance for Lawnchair 15 Beta 2.1 (also known by its accidental name: `15.Dev.(#19)`) is irrevocably voided due to misconfiguration 
+in the publishing step that required the APK to be republished, thus breaking the already published attestation. 
+Users are suggested to switch to verifying via the Android app certificate method instead. Because of this, the CI was updated to prevent publishing with such error.
 
 ### Android app certificate
 
