@@ -30,7 +30,7 @@ You must see the **Restricted setting** message for the next steps to work corre
 #### Grant the requested permission
 
 {% hint style="warning" %}
-**Important:** Some devicesmay not follow these exact instructions. If these steps don't work for you, [search the web](https://www.google.com/search?q=android+turn+on+restricted+settings) for the exact steps.
+**Important:** Some devices may not follow these exact instructions. If these steps don't work for you, [search the web](https://www.google.com/search?q=android+turn+on+restricted+settings) for the exact steps.
 {% endhint %}
 
 1. Open **Home settings**.

@@ -19,7 +19,7 @@ When modifying AOSP files, document changes you made with the prefix `LC-Note(<o
 // Example
 // LC-Note: These changes are needed to support API X.
 public void onChange(Boolean value) {
-    Log.d("LC-BaseActivity", "Doing something on change")
+    Log.d("LC-BaseActivity", "Doing something on change");
     ...
 }
 ```

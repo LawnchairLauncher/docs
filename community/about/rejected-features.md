@@ -16,7 +16,7 @@ We suggest using your device's built-in system customization settings, custom RO
 
 This feature would allow users to lock individual applications with a PIN, pattern, or biometric check directly within the launcher.
 
-However, launcher-level app locking only protects the app's icon from being tapped on the home screen, without securing anything else. A user can easily bypass this "lock" by launching the target application from the Settings app, Google Assistant, notificiations, or a link from another app. Implementing this will also add significant state complexity and creates a false sense of security.
+However, launcher-level app locking only protects the app's icon from being tapped on the home screen, without securing anything else. A user can easily bypass this "lock" by launching the target application from the Settings app, Google Assistant, notifications, or a link from another app. Implementing this will also add significant state complexity and creates a false sense of security.
 
 We suggest using Android's built-in [Private Space feature](https://support.google.com/android/answer/15341885) (available on Android 15 and newer) or your device manufacturer's system-level app locker, which secure the application at the OS level.
 
