@@ -38,7 +38,7 @@ When you use Lawnicons as a themed icon source, Lawnchair recolors its monochrom
 
 <summary>What's the difference between an icon pack and a themed icon source?</summary>
 
-The difference is easy to miss because both options look similar.
+The options look similar, but they work differently:
 
 * **As an icon pack**
   * Applies Lawnicons' default look.

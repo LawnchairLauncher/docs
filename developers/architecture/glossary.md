@@ -1,6 +1,6 @@
 # Glossary
 
-This page defines common terms and acronyms used throughout the Launcher3 and Lawnchair codebase. Use these terms when naming variables, classes, or documenting code.
+Use these definitions for terms and acronyms found in the Launcher3 and Lawnchair codebase. Keep them consistent when naming variables and classes or writing code documentation.
 
 ### Terminology mapping
 

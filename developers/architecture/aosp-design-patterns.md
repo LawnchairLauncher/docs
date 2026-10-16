@@ -35,7 +35,7 @@ System state (locale, theme, orientation, or user profiles) can change at any ti
 **Tips**
 
 * Never assume state is static or persists across process death.
-* Implement robust invalidation strategies for all caches (e.g., icon caches or search result caches).
+* Invalidate caches, such as icon and search-result caches, when their inputs change.
 * React gracefully to `onConfigurationChanged` and system state broadcasts.
 
 **Example:**
@@ -82,7 +82,7 @@ The launcher must support a wide range of API levels and potentially broken OEM 
 **Tips**
 
 * Use runtime checks (`Utilities.ATLEAST_T`) to guard features using newer APIs.
-  * If you somehow can't access the `Utilities` object, use `Build.VERSION.SDK_INT >= Build.VERSION_CODES.S` instead.
+  * If `Utilities` is unavailable, use `Build.VERSION.SDK_INT >= Build.VERSION_CODES.S` instead.
 * Use compatibility wrappers to provide fallbacks for older Android versions.
 * Maintain backwards compatibility for core launcher features.
 

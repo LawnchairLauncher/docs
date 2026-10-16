@@ -1,13 +1,13 @@
 # Lawnchair Documentation Style Guide
 
-This guide outlines the conventions for writing and maintaining Lawnchair's documentation. Adhering to these principles ensures consistency, clarity, and a positive user and contributor experience.
+Use these conventions when writing or editing Lawnchair's documentation.
 
 ## I. Core Principles (Derived from Diátaxis Framework & Project Directives)
 
 *   **Audience-Centric:** Always write for the primary audience of the specific document (End-User, Developer, Community Member). Content must be relevant and accessible to them.
 *   **Friction Reduction:** The documentation's overarching goal is to reduce confusion and accelerate task completion for its audience.
 *   **Single Source of Truth (SSOT):** Avoid duplicating information across multiple pages or sources. If information is needed in multiple places, link to the authoritative source.
-*   **Necessity Only:** Only document features or processes that are genuinely confusing, non-obvious, or require specific multi-step setup. Avoid documenting truly self-explanatory UI elements.
+*   **Necessity Only:** Document features or processes that are confusing, non-obvious, or require specific multi-step setup. Skip self-explanatory UI elements.
 *   **Transparency & Factual Neutrality:** Present facts objectively. Acknowledge limitations, known issues, and external dependencies honestly. Avoid marketing language or making unfulfillable promises.
 
 ## II. Tone of Voice

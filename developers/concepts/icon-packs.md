@@ -9,7 +9,7 @@ noRobotsIndex: true
 This page is being actively rewritten, and as such, is not yet available for searching or indexing.
 {% endhint %}
 
-Lawnchair supports two distinct standards for icon theming: the ADW Icon Pack standard and the Google Themed Icon standard. This document provides the technical specification for both systems and describes Lawnchair's implementation details.
+Lawnchair supports two icon theming standards: the ADW Icon Pack standard and the Google Themed Icon standard. The sections below describe both and Lawnchair's implementation.
 
 ## The ADW Icon Pack Standard
 
@@ -235,7 +235,7 @@ These entries point to `<array>` resources which contain the necessary drawables
 
 ### For Icon Pack Developers
 
-* The ADW standard with a comprehensive `appfilter.xml` is the recommended foundation for maximum compatibility and feature support.
+* An ADW pack with a complete `appfilter.xml` provides the broadest compatibility and feature support.
 *   To allow an icon pack to be used as a source for Lawnchair's "Themed Icons" feature, its `AndroidManifest.xml` must include the following intent filter:
 
     ```xml

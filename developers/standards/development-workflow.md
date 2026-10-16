@@ -1,6 +1,6 @@
 # Development workflow
 
-Lawnchair utilizes a tiered workflow to balance development velocity with system stability. All pull requests (PRs) must target the `16-dev` branch unless otherwise specified.
+The review process scales with a change's complexity and risk. Unless noted otherwise, pull requests (PRs) must target the `16-dev` branch.
 
 ### Change tiers
 

@@ -1,6 +1,6 @@
 # Report issues
 
-Your feedback is crucial for improving Lawnchair. We use our GitHub repository to track bug reports, crashes, and feature requests.
+Report bugs and crashes or request features in our GitHub repository.
 
 ### Reporting bugs or crashes
 

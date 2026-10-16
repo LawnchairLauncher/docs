@@ -5,9 +5,7 @@ icon: hand-pointer
 
 # Gesture navigation issues
 
-Smooth gesture navigation is a big part of a good launcher experience.
-
-On Android, results with third-party launchers can vary a lot by device, Android version, and OEM software.
+Gesture navigation with third-party launchers varies by device, Android version, and manufacturer.
 
 {% hint style="info" %}
 Gesture navigation on this page means _system navigation gestures_, not Lawnchair gestures under **Home settings** > **Gestures**.

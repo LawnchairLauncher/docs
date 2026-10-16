@@ -1,6 +1,6 @@
 # Triage issues
 
-This document defines the official workflow for triaging issues on Lawnchair's GitHub repository. The goal of the triage team is to maintain a clean, organized, and actionable issue tracker, allowing developers to focus on writing code.
+This workflow helps triage issues in Lawnchair's GitHub repository and keep the issue tracker organized and actionable.
 
 We utilize centralized boards to track and organize our development pipeline:
 
@@ -14,7 +14,7 @@ Every issue follows a structured lifecycle managed by `status:` labels. The prim
 #### Status labels
 
 * `status: needs triage` is the default state for all new issues, indicating they have not yet been reviewed by the triage team.
-* `status: needs info` is used when an issue has been reviewed but is missing critical details from the author, such as steps to reproduce, device specifications, or crash logs. Issues will be closed after one month of no reply.
+* `status: needs info` is used after an issue has been reviewed and is missing details such as steps to reproduce, device specifications, or crash logs. Issues will be closed after one month without a reply.
 * `status: needs repro` is applied when an issue has been reviewed and seems valid, but requires independent reproduction or confirmation by other contributors or developers.
 * `status: reviewed` indicates the issue has been fully validated, reproduced, and documented. This is the signal that an issue is developer-ready.
 
@@ -46,7 +46,7 @@ Start by selecting an issue that has not yet been processed. You can find the li
 Analyze the issue to determine its correct state:
 
 1. Search the repository (especially existing `tracking-issue` reports) to see if the problem has already been reported. If it is a duplicate, recommend closing the issue (e.g., `Recommendation: Close as duplicate of #1234`).
-2. Verify if the author completed the issue template. If the report is completely empty or incomprehensible, recommend immediate closure. If it is simply missing crucial details, recommend requesting the information (e.g., `Recommendation: Change status to 'needs info'. Please provide a screen recording`).
+2. Check whether the author completed the issue template. If the report is empty or incomprehensible, recommend closing it. If details are missing, recommend requesting them (e.g., `Recommendation: Change status to 'needs info'. Please provide a screen recording`).
 3. If the report is clear, attempt to reproduce the behavior using the latest [Lawnchair Nightly build](https://github.com/LawnchairLauncher/lawnchair?tab=readme-ov-file#development-builds). For feature requests, assess if the concept aligns with the project's goals.
 {% endstep %}
 

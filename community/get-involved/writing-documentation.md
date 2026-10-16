@@ -1,6 +1,6 @@
 # Writing documentation
 
-This page outlines the conventions and workflows for contributing to Lawnchair's documentation. Following these guidelines ensures that our documentation remains accurate, scannable, and easy to maintain.
+Use these conventions when contributing to Lawnchair's documentation.
 
 ## Documentation philosophy
 

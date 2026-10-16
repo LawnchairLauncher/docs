@@ -1,8 +1,6 @@
 # Project overview
 
-This page provides a high-level overview of Lawnchair's origins and its architectural foundation. Understanding this context is required to navigate the codebase.
-
-### Lawnchair and Launcher3
+## Lawnchair and Launcher3
 
 Lawnchair is a fork of [Launcher3](https://cs.android.com/android/platform/superproject/main/+/main:packages/apps/Launcher3/), the default home screen application in the Android Open Source Project (AOSP). Lawnchair is built upon the same codebase used for the stock Android launcher.
 
@@ -16,11 +14,11 @@ Launcher3 is designed as a core component of the Android operating system. This 
 Lawnchair inherits several characteristics from its AOSP foundation:
 
 * Deep system integration for features like the Recents screen (Quickstep) and gesture navigation.
-* Variable performance where core AOSP features are generally responsive, while Lawnchair-specific features or areas undergoing refactoring may not yet achieve the same level of fluidity.
+* Core AOSP features are generally responsive; Lawnchair-specific features and areas being refactored may be less fluid.
 * Platform-level optimizations to maintain a minimal resource footprint.
-* Resilience against system-wide crashes through robust error handling.
+* Error handling that helps limit the impact of system-wide failures.
 
-To dive deeper into the technical principles governing the codebase, refer to [AOSP design patterns](aosp-design-patterns.md) and [Lawnchair design patterns](lawnchair-design-patterns.md). You can also consult the Glossary for definitions of project-specific terminology.
+See [AOSP design patterns](aosp-design-patterns.md), [Lawnchair design patterns](lawnchair-design-patterns.md), and the [glossary](glossary.md) for more about the codebase.
 
 ### Project structure
 
@@ -39,4 +37,4 @@ Lawnchair is composed of multiple Gradle modules. The most important ones are li
 
 Lawnchair prioritizes feature availability and user-facing stability.
 
-Currently, the project **does not utilize unit tests or automated UI tests**. Code quality is maintained through manual verification by contributors and core maintainers, alongside feedback from our community via GitHub issues and Nightly build testers.
+The project currently has no unit or automated UI tests. Contributors and maintainers verify changes manually, with additional feedback from GitHub issues and Nightly build testers.

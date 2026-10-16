@@ -1,6 +1,6 @@
 # Before you start
 
-Contributing code to Lawnchair will take a bit of patience. This page helps you decide if it is a good fit and shows other ways to help.
+Read this page to decide whether contributing code is a good fit and to find other ways to help.
 
 {% hint style="warning" %}
 Lawnchair is not a good first open-source codebase for most contributors. If you are new to Android internals or open source, start with a smaller task or one of the alternatives below.

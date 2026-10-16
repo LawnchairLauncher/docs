@@ -1,12 +1,12 @@
 # Branding
 
-This page contains the official branding assets and visual guidelines for the Lawnchair project. Please adhere to these guidelines when representing the project.
+Follow these rules when representing Lawnchair or using its official branding.
 
 ## License
 
 Unlike Lawnchair's source code, which is licensed under Apache License 2.0, the Lawnchair logo, wordmark, and other official branding elements are All Rights Reserved (ARR). They are proprietary and protected intellectual property.
 
-Please follow the guidelines listed in the next section.
+Follow the guidelines below.
 
 ## Lawnchair brand guidelines
 
