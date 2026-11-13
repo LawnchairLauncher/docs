@@ -4,10 +4,27 @@ Read this page once you have decided to contribute code. It covers local setup a
 
 ### Prerequisites
 
-* [Preview version of Anroid Studio](https://developer.android.com/studio/preview)
+{% tabs %}
+
+{% tab title="Recommended" %}
+
+* [Preview version of Android Studio](https://developer.android.com/studio/preview)
+* At least 16 GB of RAM
+* Physical or virtual Android phone running at least Android 12
 * Git
+
+{% endtab %}
+
+{% tab title="Minimum" %}
+
+* [Preview version of Android Studio](https://developer.android.com/studio/preview)
 * At least 8 GB of RAM
-  * 16 GB of RAM is recommended to comfortably multitask with other apps.
+* Physical or virtual Android phone running at least Android 8.0
+* Git
+
+{% endtab %}
+
+{% endtabs %}
 
 macOS or Linux is recommended.
 
